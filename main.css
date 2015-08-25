@@ -36,8 +36,8 @@ body {
     padding-bottom: 24px;
 }
 .menu {
+    padding: 18px;
     text-align: center;
-    padding: 20px;
     
     /* 文字系 */
     font-family: 'Josefin Sans', sans-serif;
@@ -52,13 +52,11 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
-.menu:hover {
-    color: coral;
-}
 #copyright {
     padding: 18px;
     text-align: center;
     
+    /* 文字系 */
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     color: dimgray;
@@ -71,12 +69,15 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
-#none-underline {
+.none-underline-link {
     text-decoration: none;
 }
-#none-underline:link {
+.none-underline-link:link {
     color: dimgray;
 }
-#none-underline:visited {
+.none-underline-link:visited {
     color: dimgray;
+}
+.none-underline-link:hover {
+    color: coral;
 }
