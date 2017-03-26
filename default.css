@@ -1,0 +1,40 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: bisque;
+    margin: 0px;
+}
+#contents {
+    position: relative;
+}
+#copyright {
+    padding: 18px;
+    text-align: center;
+    
+    /* 文字系 */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: dimgray;
+    
+    /* マウスオーバー時のカーソルの種類 */
+    cursor: default;
+    
+    /* テキストを選択不可 */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.none-underline-link {
+    text-decoration: none;
+}
+.none-underline-link:link {
+    color: dimgray;
+}
+.none-underline-link:visited {
+    color: dimgray;
+}
+.none-underline-link:hover {
+    color: coral;
+}

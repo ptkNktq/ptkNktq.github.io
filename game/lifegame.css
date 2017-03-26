@@ -1,0 +1,10 @@
+#board {
+    margin-top: 64px;
+    line-height: 1;
+    text-align: center;
+    
+    /* テキストを選択不可 */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
