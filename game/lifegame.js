@@ -1,5 +1,5 @@
-var width = 50;
-var height = 50;
+var width = 75;
+var height = 75;
 var board = [];
 var dx = [-1,  0,  1, -1,  1, -1,  0,  1];
 var dy = [-1, -1, -1,  0,  0,  1,  1,  1];

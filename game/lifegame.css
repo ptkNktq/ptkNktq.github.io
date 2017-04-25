@@ -1,7 +1,8 @@
 #board {
-    margin-top: 64px;
+    margin-top: 18px;
     line-height: 1;
     text-align: center;
+    font-size: 12px;
     
     /* テキストを選択不可 */
     -moz-user-select: none;
